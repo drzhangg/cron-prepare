@@ -18,7 +18,7 @@ func main() {
 	}
 
 	//2.选择数据库my_db
-	database:=client.Database("my_db")
+	database := client.Database("my_db")
 
 	//3.选择表my_collection
 	collection := database.Collection("my_collection")
